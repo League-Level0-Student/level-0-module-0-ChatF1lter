@@ -53,6 +53,9 @@ image (mustache, mouseX-100,mouseY-100);}
 //               so the mustache center appears where the mouse pointer is
 //     Draw a hat on the sketch when the right mouse button is pressed. Use this code.
 //               if (mouseButton == RIGHT)  {     }
-if(mouseButton == RIGHT)
-  rect(250,50, 100,25);
+if(mouseButton == RIGHT){
+  fill(#FA0F0F);
+  rect(75,25, 350,25);
+  rect(200,0, 100,50);
+}
 }
